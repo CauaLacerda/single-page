@@ -1,2 +1,2 @@
 # single-page
- Página única feita com HTML,CSS,JS,FONT AWESOME e BOOTSTRAP 
+ Página única que está sendo feita com HTML,CSS,JS,FONT AWESOME e BOOTSTRAP 
