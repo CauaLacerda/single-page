@@ -7,6 +7,7 @@
 - Bootstrap 5
 - JQuery Lightbox
 - AOS Animation
+- Consumo de API do IBGE para estados e cidades do Brasil 
 
 <br><br>
 
