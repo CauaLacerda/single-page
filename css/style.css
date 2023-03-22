@@ -13,6 +13,13 @@
     padding: 8px;
 }
 
+.sub-titulo{
+    /* ajusta a largura para ficar igual largura do texto */
+    width: fit-content;
+    /* centraliza a caixa no recipiente <body> */
+    margin: 0 auto;
+}
+
 
 
 
@@ -21,4 +28,15 @@
     width: 80%;
     margin: 0 auto;
 }
+
+#banner-top .carousel-caption{
+    padding: 6px;
+    background-color: rgba(0, 0, 0, 0.247);
+
+}
+
+.bg-cinza-claro{
+    background-color: rgb(165, 159, 159);
+}
+
 
