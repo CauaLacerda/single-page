@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Site de página única
  Página única feita com HTML,CSS,JS,FONT AWESOME e BOOTSTRAP 
 
@@ -7,8 +7,9 @@
 - Bootstrap 5
 - JQuery Lightbox
 - AOS Animation
+- Consumo de API do IBGE para estados e cidades do Brasil 
 
-=======
-# single-page
- Página única que está sendo feita com HTML,CSS,JS,FONT AWESOME e BOOTSTRAP 
->>>>>>> f6580e8a91a9af5884a4b27036d7b9c6517cbf90
+<br><br>
+
+<img src=https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png>
+
