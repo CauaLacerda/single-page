@@ -7,6 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
@@ -16,9 +17,16 @@
         integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- CSS personalizado -->
+    <!-- CSS do plugin lightbox -->
+    <link href="css/lightbox.min.css" rel="stylesheet" />
 
+    <!-- AOS Animate -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <!-- CSS personalizado -->
     <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 
@@ -66,7 +74,7 @@
 
     <main class="mt-5 pt-3">
         <div class="container-fluid padd-padrao">
-            <h1>Marketing Company</h1>
+            <h1 data-aos="fade-right">Marketing Company</h1>
             <p>Dev by Cauã Lacerda</p>
         </div>
 
@@ -119,7 +127,7 @@
         <!-- Final banner topo -->
 
         <!-- Seção nossos Serviços -->
-        <section id="nossos-servicos" class="mt-5 mb-2">
+        <section id="nossos-servicos" class="mt-5 mb-2" data-aos="fade-right" data-aos-duration="1000">
             <h2 class="sub-titulo mb-5 border-bottom border-5 border-secondary ">Nossos Serviços</h2>
 
             <div class="container">
@@ -186,14 +194,14 @@
 
 
         <!-- Seção nossos Planos -->
-        <section id="nossos-planos" class="mt-5 mb-2">
+        <section id="nossos-planos" class="mt-5 mb-2" data-aos="fade-up" data-aos-duration="1000">
             <h2 class="sub-titulo border-5 border-bottom border-secondary">Nossos Planos</h2>
             <p class="text-center">Consulte nossos planos e preços</p>
 
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 m-3 m-md-0">
                         <div class="card">
                             <div class="card-header bg-secondary text-center text-white p-3">
                                 Básico
@@ -216,7 +224,7 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div class="col-md-4 m-3 m-md-0">
                         <div class="card">
                             <div class="card-header bg-cinza-claro text-center text-white p-3">
                                 Pró
@@ -238,7 +246,8 @@
 
                     </div>
 
-                    <div class="col-md-4">
+                    <!-- Acrescenta margem 3 para todas as telas exceto para telas maiores que md que ficam com 0 -->
+                    <div class="col-md-4 m-3 m-md-0">
                         <div class="card">
                             <div class="card-header bg-secondary text-center text-white p-3">
                                 Premium
@@ -273,6 +282,160 @@
         <!-- Final seção nossos Planos -->
 
 
+        <!-- seção nossa equipe -->
+        <section id="nossa-equipe" class="mt-5 mb-3">
+            <h2 class="sub-titulo border-5 border-bottom border-secondary mb-3">
+                Nossa Equipe
+            </h2>
+            <div class="container data-aos=fade-left">
+                <div class="row">
+                    <div class="col-md-4 m-3 m-md-0">
+                        <div class="card" data-aos="flip-left" data-aos-duration="700">
+                            <img class="card-img-top" src="imagens/team1.jpg" alt="Foto de Joana Maranhão">
+                            <div class="card-body">
+                                <h4 class="card-title">Joana Maranhão</h4>
+                                <p class="card-text">Chefe de design</p>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                                    expedita dolorem ducimus consectetur, officia neque sed perspiciatis veniam nihil
+                                    esse dignissimos sint. Numquam labore molestiae maiores obcaecati placeat deserunt
+                                    libero.</p>
+                                <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 m-3 m-md-0">
+                        <div class="card" data-aos="flip-left" data-aos-duration="700" data-aos-delay="700">
+                            <img class="card-img-top" src="imagens/team2.jpg" alt="Foto de Joana Maranhão">
+                            <div class="card-body">
+                                <h4 class="card-title">Steve da Silva</h4>
+                                <p class="card-text">Arquiteto de soluções</p>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                                    expedita dolorem ducimus consectetur, officia neque sed perspiciatis veniam nihil
+                                    esse dignissimos sint. Numquam labore molestiae maiores obcaecati placeat deserunt
+                                    libero.</p>
+                                <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 m-3 m-md-0">
+                        <div class="card" data-aos="flip-left" data-aos-duration="700" data-aos-delay="1400">
+                            <img class="card-img-top" src="imagens/team3.jpg" alt="Foto de Joana Maranhão">
+                            <div class="card-body">
+                                <h4 class="card-title">José Mojica</h4>
+                                <p class="card-text">CEO</p>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
+                                    expedita dolorem ducimus consectetur, officia neque sed perspiciatis veniam nihil
+                                    esse dignissimos sint. Numquam labore molestiae maiores obcaecati placeat deserunt
+                                    libero.</p>
+                                <a class="btn btn-secondary w-100" href="#" role="button">Contato</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- final seção nossa equipe -->
+
+        <!-- Inicio seção portfolio -->
+        <section id="portfolio" class="mt-5 mb-3">
+            <h2 class="sub-titulo border-5 border-bottom border-secondary mb-3">Portfólio</h2>
+            <div class="text-center">
+                <a href="imagens/img-grande-1.jpg" data-lightbox="roadtrip" data-title="Espaço de trabalho">
+                    <img src="imagens/miniatura-1.jpg">
+                </a>
+                <a href="imagens/img-grande-2.png" data-lightbox="roadtrip" data-title="Dispositivos">
+                    <img src="imagens/miniatura-2.jpg">
+                </a>
+                <a href="imagens/img-grande-3.jpg" data-lightbox="roadtrip" data-title="Alta tecnologia">
+                    <img src="imagens/miniatura-3.jpg">
+                </a>
+                <a href="imagens/img-grande-4.jpg" data-lightbox="roadtrip" data-title="Pessoas">
+                    <img src="imagens/miniatura-4.jpg">
+                </a>
+                <a href="imagens/img-grande-5.jpg" data-lightbox="roadtrip" data-title="Tive uma ideia">
+                    <img src="imagens/miniatura-5.jpg">
+                </a>
+                <a href="imagens/img-grande-6.jpg" data-lightbox="roadtrip" data-title="Computador retrô">
+                    <img src="imagens/miniatura-6.jpg">
+                </a>
+            </div>
+
+        </section>
+        <!-- final seção portfolio -->
+
+
+        <!-- seção cadastro -->
+        <section id="cadastro" class="mt-5 mb-2">
+            <h2 class="sub-titulo border-5 border-bottom border-secondary">Cadastre-se</h2>
+
+            <form action="processa.php" method="POST" enctype="multipart/form-data" class="container">
+                <div class="mb-3">
+                    <label for="nome" class="form-label">Nome:</label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Digite seu nome">
+                </div>
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" name="email" id="email"
+                        placeholder="Exemplo: abc@mail.com">
+                </div>
+
+                <div class="mb-3">
+                    <label for="idade" class="form-label">Idade: <strong id="txt-idade"></strong></label>
+                    <input type="range" min="0" max="120" value="18" class="form-range" name="idade" id="idade">
+                </div>
+
+                <p>Sexo</p>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sexo" id="sexo" value="Feminino">
+                    <label class="form-check-label" for="sexo">Feminino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sexo" value="Masculino">
+                    <label class="form-check-label" for="sexo">Masculino</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="sexo" value="Outros">
+                    <label class="form-check-label" for="sexo">Outros</label>
+                </div>
+
+                <p>Assinale o que você faz nas horas livres</p>
+                <!-- checkbox -->
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Cinema" name="[]diversao">
+                    <label class="form-check-label" for="">
+                        Cinema
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Shows" name="[]diversao">
+                    <label class="form-check-label" for="">
+                        Shows
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Esportes" name="[]diversao">
+                    <label class="form-check-label" for="">
+                        Esportes
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="Churrasco" name="[]diversao">
+                    <label class="form-check-label" for="">
+                        Churrasco
+                    </label>
+                </div>
+
+                <div class="mb-3 mt-4">
+                  <label for="arquivo" class="form-label">Escolha o Arquivo:</label>
+                  <input type="file" class="form-control" name="arquivo"  placeholder=".jpg, .png, .gif" >
+                </div>
+
+
+            </form>
+        </section>
+        <!-- final seção cadastro -->
 
     </main>
 
@@ -280,8 +443,11 @@
 
     </footer>
 
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
-
+    <!-- JS do LightBox -->
+    <script src="js/lightbox.min.js"></script>
 
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
@@ -291,6 +457,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
         integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
         </script>
+
+    <!-- JS AOS Animate  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
 
     <!-- JS personalizado -->
     <script src="js/code.js"></script>
